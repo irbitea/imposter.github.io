@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>IMPOSTER</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+  <header class="bg-image-full" style="background-image: url('img/desk.jpg');">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mobile">
+      <div class="container">
+        <span class="w-100 d-lg-none d-block"></span>
+        <a class="navbar-brand d-none d-lg-inline-block border" href="index.html">
+          IMPOSTER
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link m-2" href="index.html">Sākums
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link m-2" href="poster.html">Plakāti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="about.html">Par Mums</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="poster.html#footer">Kontakti</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <img class="img-fluid d-block mx-auto" src="img/thumbnail_b.png" alt="logo">
+  </header>
+  <a id="button"></a>
+  <!-- Page Content -->
+  <section class="py-5">
+
+    <div class="container">
+
+      <div class="d-flex justify-content-center row">
+        <button class="btn btn-dark active mx-2 mt-2 filter-button" data-filter="all" >Visi</button>
+        <button class="btn btn-dark mx-2 mt-2 filter-button" data-filter="fizika">Fizika</button>
+        <button class="btn btn-dark mx-2 mt-2 filter-button" data-filter="elektronika">Elektronika</button>
+        <button class="btn btn-dark mx-2 mt-2 filter-button" data-filter="programmesana">Programmēšana</button>
+        <button class="btn btn-dark mx-2 mt-2 filter-button" data-filter="lv">Latviešu valoda</button>
+        <button class="btn btn-dark mx-2 mt-2 filter-button" data-filter="eng">Angļu valoda</button>
+        <button class="btn btn-dark mx-2 mt-2 filter-button" data-filter="ru">Krievu valoda</button>
+        <button class="btn btn-dark mx-2 mt-2 filter-button" data-filter="soc">Sociālās zinības</button>
+        <button class="btn btn-dark mx-2 mt-2 filter-button" data-filter="history">Vēsture</button>
+        
+    </div>
+
+  <!-- Row-->
+      <div class="row text-center new poster">
+        
+        <div class="col-lg-3 col-md-6 mb-4 filter fizika">
+          <div class="shadow card card-body ">
+            <img class="card-img-top img-fluid" src="img/oma_likums.jpg" data-toggle="modal" data-target="#omaModal">
+            <!-- <button class="btn btn-dark mt-4" data-toggle="modal" data-target="#omaModal">Oma likums</button> -->
+            <h5 class="card-title mt-2">Oma likums</h5>
+            <div class="modal fade" id="omaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Oma likuma plakāts</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/oma_likums.jpg" alt="Oma likums">
+                    <p class="mt-4 text-justify">Oma likums nosaka sakarību starp spriegumu un strāvu elektriskās ķēdes posmā.
+                      Šis plakāts noderēs fizikas stundās, mācoties par elektrisko strāvu.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 filter fizika elektronika">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/rezistors.jpg" data-toggle="modal" data-target="#rezistorModal">
+            <h5 class="card-title mt-2">Rezistoru vērtība</h5>
+            <div class="modal fade" id="rezistorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Rezistoru vērtības plakāts</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/rezistors.jpg" alt="Rezistori">
+                    <p class="mt-4 text-justify">Plakāts norāda, kā aprēķināt jebkura rezistora vērtību. Tas var noderēt gan elektronikas pulciņā, gan fizikas stundās.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 filter elektronika">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/raspberry.jpg" data-toggle="modal" data-target="#raspberryModal">
+            <!-- <button type="button" class="btn btn-dark mt-4" data-toggle="modal" data-target="#raspberryModal">Raspberry Pi</button> -->
+            <h5 class="card-title mt-2">Raspberry Pi</h5>
+            <div class="modal fade" id="raspberryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Raspberry Pi izkārtojums un funckijas</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/raspberry.jpg" alt="">
+                    <p class="mt-4 text-justify">Šajā plakātā atradīsi noderīgu informāciju par Raspberry Pi izkārtojumu un funkcijām. 
+                      Šis būs noderīgi skoēniem, kuri apgūst mehatroniku vai elektroniku.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 filter programmesana">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/html.jpg" data-toggle="modal" data-target="#htmlModal">
+            <h5 class="card-title mt-2">HTML</h5>
+            <div class="modal fade" id="htmlModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">HTML lapas uzbūve</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/html.jpg" alt="">
+                    <p class="mt-4 text-justify">Plakāts par HTML lapas uzbūvi, kas varētu noderēt, mācoties par mājaslapu izveidi programmēšanas vai informātikas stundās.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 filter eng soc">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/information.jpeg" data-toggle="modal" data-target="#informationModal">
+            <h5 class="card-title mt-2">Misinformation</h5>
+            <div class="modal fade" id="informationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Plakāts par nepareizu informāciju medijos</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/information.jpeg" alt="">
+                    <p class="mt-4 text-justify">Plakāts nepatiesas informācijas atpazīšanu internetā, 
+                      kas būs noderīgs angļu valodas vai sociālo zinību mācību stundās.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 filter soc">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/zinas.jpeg" data-toggle="modal" data-target="#zinasModal">
+            <h5 class="card-title mt-2">Viltus ziņas</h5>
+            <div class="modal fade" id="zinasModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Kā atpazīt viltus ziņas internetā?</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/zinas.jpeg" alt="">
+                    <p class="mt-4 text-justify">Plakāts par to, kā atpazīt viltus ziņas internetā, kā tās pārbaudīt. 
+                      Šis plakāts būs noderīgs gan sociālajās zinībās, gan informātikā. Pieejams angļu un latviešu valodā.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 filter soc eng">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/fake.jpeg" data-toggle="modal" data-target="#fakeModal">
+            <h5 class="card-title mt-2">Fake news</h5>
+            <div class="modal fade" id="fakeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Kā atpazīt viltus ziņas internetā?</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/fake.jpeg" alt="">
+                    <p class="mt-4 text-justify">Plakāts par to, kā atpazīt viltus ziņas internetā, kā tās pārbaudīt. Šis plakāts būs noderīgs gan sociālajās zinībās, gan informātikā. 
+                      Pieejams angļu un latviešu valodā.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4 filter ru ">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/lietvards.jpeg" data-toggle="modal" data-target="#lietvardsModal">
+            <h5 class="card-title mt-2">Lietvārds</h5>
+            <div class="modal fade" id="lietvardsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Lietvārda galotnes atkarībā no dzimtes</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/lietvards.jpeg" alt="">
+                    <p class="mt-4 text-justify">Plakāts krievu valodā par lietvārdu un tā galotnēm sieviešu, vīriešu un nekatrajā dzimtē.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>    
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4 filter eng">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/past.jpeg" data-toggle="modal" data-target="#presentModal">
+            <h5 class="card-title mt-2">Present tense</h5>
+            <div class="modal fade" id="presentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Present tense jeb tagadnes forma</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/past.jpeg" alt="">
+                    <p class="mt-4 text-justify">Attēlo, kā tagadnes formā veidot apgalvojuma, nolieguma vai jautājuma teikumus. Šis plakāts būs noderīgs angļu valodas stundās.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 filter eng ">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/english.jpeg" data-toggle="modal" data-target="#englishModal">
+            <h5 class="card-title mt-2">They're, Their, There</h5>
+            <div class="modal fade" id="englishModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Atšķirība starp They're, Their un There</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/english.jpeg" alt="">
+                    <p class="mt-4 text-justify">Šis plakāts būs noderīgs angļu valodas stundās, lai saprastu atšķirību starp They're, Their un There</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 filter fizika ">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/Atoms.png" data-toggle="modal" data-target="#atomsModal">
+            <h5 class="card-title mt-2">Atoms un tā kodols</h5>
+            <div class="modal fade" id="atomsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Atoms, tā kodols un atklājumi</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/Atoms.png" alt="">
+                    <p class="mt-4 text-justify">Šajā plakātā atradīsi svarīgāko informāciju par atomu, tā kodolu, vēsturi un zinātnes atklājumiem. 
+                      Šis būs noderīgs plakāts fizikas stundās, mācoties par kodolfizku un kodolreakcijām.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 filter programmesana ">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/datu_tipi.jpeg" data-toggle="modal" data-target="#datiModal">
+            <h5 class="card-title mt-2">Datu tipi</h5>
+            <div class="modal fade" id="datiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Datu tipi</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/datu_tipi.jpeg" alt="">
+                    <p class="mt-4 text-justify">Mācoties programmēt, svarīgi ir apgūt arī datu tipus un saprast, kādam nolūkam tos izmanto.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     
+
+        
+        <div class="col-lg-4 col-md-6 mb-4 filter lv ">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/pamatlikumi_A2.png" data-toggle="modal" data-target="#pamatlikumiModal">
+            <h5 class="card-title mt-2">Darbības vārdu pamatlikumi</h5>
+            <div class="modal fade" id="pamatlikumiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Darbības vārdu pamatlikumi</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/pamatlikumi_A2.png" alt="">
+                    <p class="mt-4 text-justify">Plakātā ir apkopoti svarīgākie darbības vārdu pamatlikumi. Šis plakāts būs noderīgs tieši 9. un 12.kl. skolēniem latviešu valodas stundās.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 filter history ">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/18.png" data-toggle="modal" data-target="#historyModal">
+            <h5 class="card-title mt-2">18. novembris</h5>
+            <div class="modal fade" id="historyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">18.novembris- Latvijas Republikas proklamēšanas diena</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/18.png" alt="">
+                    <p class="mt-4 text-justify">Plakāts par Latvijas Republikas proklamēšanas dienu, iesaistītajām personām un notikumiem.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 filter lv">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/izteiksmes_lidzekli.jpeg" data-toggle="modal" data-target="#lidzekliModal">
+            <h5 class="card-title mt-2">Tēlainās izteiksmes līdzekļi</h5>
+            <div class="modal fade" id="lidzekliModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Tēlainās izteiksmes līdzekļi</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/izteiksmes_lidzekli.jpeg" alt="">
+                    <p class="mt-4 text-justify">Plakātā iekļauti biežāk lietotie tēlainās izteiksmes līdzekļi, to skaidrojumi un piemēri. Šis plakāts būs noderīgs literatūras stundās, 
+                      veicot tekstu analīzi, kā arī latviešu valodā, runājot par valodas stilu pazīmēm.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- Container-->
+    </div>
+
+    </div>
+  </section>
+
+    <!-- Footer -->
+  <footer class="bg-dark" id="footer" name="footer" >
+      <div class="container">
+        <div class="row pt-2 pb-4">
+        <div class="col-lg-4 mt-4">
+          <h4 class="text-uppercase" style="color:#ebebec">Kontakti</h4>
+           <a href="https://www.instagram.com/imposter_smu/"  style="color:#ebebec">Instagram: imposter_smu</a><br>
+           <a href="https://www.facebook.com/Imposter-289889414862303/"  style="color:#ebebec">Facebook: Imposter</a>
+           <p style="color:#ebebec" >E-pasts: impostersmu@gmail.com</p>
+          </div>
+  
+          <div class="col-lg-4 mt-4">
+            <h4 class="text-uppercase" style="color:#ebebec">Papildus Informācija</h4>
+            <a href="order.html"  style="color:#ebebec">Kā pasūtīt?</a><br>
+            <a href="http://jalatvia.lv/smu"  style="color:#ebebec">Informācija par SMU</a><br>
+            <a href="http://jalatvia.lv/"  style="color:#ebebec">JA Latvia</a>
+          </div>
+          <div class="col-lg-4 mt-4">
+            <h4 class="text-uppercase" style="color:#ebebec">Sadaļas</h4>
+            <a href="index.html"  style="color:#ebebec">Sākums</a><br>
+            <a href="poster.html"  style="color:#ebebec">Plakāti</a><br>
+            <a href="about.html"  style="color:#ebebec">Par mums</a><br>
+            <a href="poster.html#footer"  style="color:#ebebec">Kontakti</a>
+            </div>
+      </div>
+    </div>
+    </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

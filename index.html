@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>IMPOSTER</title>
+
+  <script src="script.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header class="bg-image-full" style="background-image: url('img/desk.jpg');">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mobile">
+      <div class="container">
+        <span class="w-100 d-lg-none d-block"></span>
+        <a class="navbar-brand d-none d-lg-inline-block border" href="index.html">
+          IMPOSTER
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link m-2" href="index.html">Sākums
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="poster.html">Plakāti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="about.html">Par Mums</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="index.html#footer">Kontakti</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <img class="img-fluid d-block mx-auto" src="img/thumbnail_b.png" alt="logo">
+  </header>
+  <a id="button"></a>
+  <section class="py-5">
+    <div class="container">
+      <h1 class="text-center">Jaunākie plakāti</h1>
+      <div class="row text-center new">
+
+        <div class="col-lg-3 col-md-6 mb-4 filter fizika ">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/Atoms.png" data-toggle="modal" data-target="#atomsModal">
+            <h5 class="card-title mt-2">Atoms un tā kodols</h5>
+            <div class="modal fade" id="atomsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Atoms, tā kodols un atklājumi</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/Atoms.png" alt="">
+                    <p class="mt-4 text-justify">Šajā plakātā atradīsi svarīgāko informāciju par atomu, tā kodolu, vēsturi un zinātnes atklājumiem. 
+                      Šis būs noderīgs plakāts fizikas stundās, mācoties par kodolfizku un kodolreakcijām.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 filter programmesana ">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/datu_tipi.jpeg" data-toggle="modal" data-target="#datiModal">
+            <h5 class="card-title mt-2">Datu tipi</h5>
+            <div class="modal fade" id="datiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Datu tipi</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/datu_tipi.jpeg" alt="">
+                    <p class="mt-4 text-justify">Mācoties programmēt, svarīgi ir apgūt arī datu tipus un saprast, kādam nolūkam tos izmanto.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4 ">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/rezistors.jpg" data-toggle="modal" data-target="#rezistorModal">
+            <h5 class="card-title mt-2">Rezistoru vērtība</h5>
+            <div class="modal fade" id="rezistorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Rezistoru vērtības plakāts</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/rezistors.jpg" alt="Rezistori">
+                    <p class="mt-4 text-justify">Plakāts norāda, kā aprēķināt jebkura rezistora vērtību. Tas var noderēt gan elektronikas pulciņā, gan fizikas stundās.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 ">
+          <div class="shadow card card-body">
+            <img class="card-img-top img-fluid" src="img/raspberry.jpg" data-toggle="modal" data-target="#raspberryModal">
+            <!-- <button type="button" class="btn btn-dark mt-4" data-toggle="modal" data-target="#raspberryModal">Raspberry Pi</button> -->
+            <h5 class="card-title mt-2">Raspberry Pi</h5>
+            <div class="modal fade" id="raspberryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Raspberry Pi izkārtojums un funckijas</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="card-img-top" src="img/raspberry.jpg" alt="">
+                    <p class="mt-4 text-justify">Šajā plakātā atradīsi noderīgu informāciju par Raspberry Pi izkārtojumu un funkcijām. 
+                      Šis būs noderīgi skoēniem, kuri apgūst mehatroniku vai elektroniku.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aizvērt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark" id="footer" name="footer">
+    <div class="container">
+      <div class="row pt-2 pb-4">
+        <div class="col-lg-4 mt-4">
+          <h4 class="text-uppercase" style="color:#ebebec">Kontakti</h4>
+          <a href="https://www.instagram.com/imposter_smu/" style="color:#ebebec">Instagram: imposter_smu</a><br>
+          <a href="https://www.facebook.com/Imposter-289889414862303/" style="color:#ebebec">Facebook: Imposter</a>
+          <p style="color:#ebebec">E-pasts: impostersmu@gmail.com</p>
+        </div>
+
+        <div class="col-lg-4 mt-4">
+          <h4 class="text-uppercase" style="color:#ebebec">Papildus Informācija</h4>
+          <a href="order.html" style="color:#ebebec">Kā pasūtīt?</a><br>
+          <a href="http://jalatvia.lv/smu" style="color:#ebebec">Informācija par SMU</a><br>
+          <a href="http://jalatvia.lv/" style="color:#ebebec">JA Latvia</a>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <h4 class="text-uppercase" style="color:#ebebec">Sadaļas</h4>
+          <a href="index.html" style="color:#ebebec">Sākums</a><br>
+          <a href="poster.html" style="color:#ebebec">Plakāti</a><br>
+          <a href="about.html" style="color:#ebebec">Par mums</a><br>
+          <a href="index.html#footer" style="color:#ebebec">Kontakti</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    $(window).load(function() {
+      $('#loading').hide();
+    });
+  </script>
+</body>
+
+</html>
