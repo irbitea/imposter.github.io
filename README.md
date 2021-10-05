@@ -1,2 +1,2 @@
-#IMPOSTER webpage
-Author: Annemarija Irbīte
+# IMPOSTER webpage
+ Author: Annemarija Irbīte
