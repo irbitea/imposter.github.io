@@ -1,1 +1,2 @@
-# imposter.github.io
+#IMPOSTER webpage
+Author: Annemarija Irbīte
